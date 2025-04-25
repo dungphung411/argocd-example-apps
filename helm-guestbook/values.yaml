@@ -14,8 +14,8 @@ containerPort: 80
 service:
   type: NodePort
   port: 80
-  targetPort: 80
-  nodePort: 30001
+  targetPort: 30001
+  
 
 ingress:
   enabled: false
